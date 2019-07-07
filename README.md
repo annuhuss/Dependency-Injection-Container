@@ -23,7 +23,7 @@ In short, a container is a tool that manages objects from their instantiation to
 </p>
 
 <p>
-Although it is not worthwhile using a Dependency Injection Container to get advantage from Dependency Injection in the following mini consecutive examples, wherein a very few different objects are needed as dependencies for executing required tasks. But for the sake of simplicity, I am going to introduce Dependency Injection as well as some other features through these sequential examples so that one would have gained a good understanding on the basic features of a Dependency Injection Container by the end of this article.
+Although it is not worthwhile using a Dependency Injection Container to get advantage from Dependency Injection in the following mini consecutive examples, wherein a very few different objects are needed as dependencies for executing required tasks. But for the sake of simplicity, I am going to introduce Dependency Injection as well as some other features, such as shared instances and PHP magic __set() and __get() methods through these sequential examples so that one would have gained a good understanding on the basic features of a Dependency Injection Container by the end of this article.
 </p>
 
 <p>
