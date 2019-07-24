@@ -1,5 +1,5 @@
 <h1>
-Dependency Injection Container: A simple introduction for managing objects from their creation to their configuration by the implementation of a container in PHP.
+Dependency Injection Container: How it works
 </h1>
 
 <p>
@@ -7,11 +7,11 @@ Dependency Injection Container: A simple introduction for managing objects from 
 </p>
 
 <p>
-Like some other design patterns, injecting dependencies is not fixed. Apparently there are many ways to do it and the two most common out of them are Constructor Injection and Setter Injection. In this article I am not going to discuss about what the Dependency Injection is? Rather, I would like to focus on the primary construction of a container which takes the responsibility for managing objects from their creation to their configuration. This discussion will be carried on by introducing some basic features of PHP container through some simple examples sequentially.
+Like some other design patterns, injecting dependencies is not fixed. Apparently there are many ways to do it and the two most common out of them are Constructor Injection and Setter Injection. In this article I am not going to discuss about: what is Dependency Injection? Rather, I would like to focus on the primary construction of a container which takes the responsibility for managing objects from their creation to their configuration. This discussion will be carried on by introducing some basic features of "PHP container" through some simple examples sequentially.
 </p>
 
 <p>
-As we already know, Dependency Injection is a technique for presenting code in a more stylish and efficient way. Concisely, the introduction of Dependency Injection makes an application more rigorous by avoiding hard coding and give it more flexibility for controlling its objects after all. But what is Dependency Injection Container, how it serves and why should we use it?
+As we already know, Dependency Injection is a technique for presenting code in a more stylish and efficient way. Concisely, the introduction of Dependency Injection makes an application more rigorous by avoiding hard coding and give it more flexibility for controlling its objects overall. But what is Dependency Injection Container, how it serves and why should we use it?
 </p>
 
 <p>
@@ -19,15 +19,15 @@ As we already know, Dependency Injection is a technique for presenting code in a
 </p>
 
 <p>
-In another words, a Dependency Injection Container is a tool that manages objects from their instantiation to their configuration by the action of on demand dependencies and which even serves for other tasks as well by the great support of some of the PHP's exciting features. Additionally, these injected dependencies are the data which usually categorized as objects and parameters.
+In another words, a Dependency Injection Container is a tool that manages objects from their instantiation to their configuration by the action of on demand dependencies. Moreover, these injected dependencies are the data which are basically categorized as objects and parameters.
 </p>
 
 <p>
-Although it is not worthwhile using a Dependency Injection Container to get advantage from Dependency Injection in the following mini consecutive examples, wherein a few different objects are needed with their dependencies for executing each application. But for the sake of simplicity, I am going to introduce Dependency Injection as well as some other exciting features, such as shared instances and PHP magic __set() and __get() methods into the container through these sequential examples so that, by the end of this article, one would have gained a good understanding on how a Dependency Injection Container serves in general.
+Although it is not so worthwhile using a Dependency Injection Container to get advantage from Dependency Injection in the following examples, wherein a few different objects are needed with their dependencies for executing each application (each example). But for the sake of simplicity, I am going to introduce Dependency Injection as well as some other exciting features, such as <i>shared instances</i> and PHPs magic <i>__set()</i> and <i>__get()</i> methods into the container through some sequential examples so that, by the end of this article, we will be familiar by the basic structure of Dependency Injection Container and the circumstances: when and why we may use it.
 </p>
 
 <p>
-My motive for executing the examples below are quite similar to each other, as we go through the examples sequentially a new feature is added into the Dependency Injection Container to flourish it gradually:
+My motive to give a primary construction to the Dependency Injection Container is quite straightforward. As we go through the following examples sequentially, a new feature will be added into the Container Class to flourish it gradually:
 </p>
 
 <p>
@@ -39,9 +39,13 @@ My motive for executing the examples below are quite similar to each other, as w
 </ul>
 </p>
 
-<p>
-<i>
-A detail illustration on this topic and some of my other Object-Oriented-Programming articles can be found in 
+<p></p>
+
+<p><i>Stars from the audience would be always appreciated.</i></p>
+
+<p></p>
+
+<p><i>
+A detail illustration of this topic and some of my other articles on different topics can be reached by 
 <a href="https://medium.com/@annuhuss/">the medium blog site</a>.
-</i>
-</p>
+</i></p>
